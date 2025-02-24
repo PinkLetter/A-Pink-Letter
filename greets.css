@@ -44,7 +44,7 @@ body {
     padding: 3%; /*new*/
     border-radius: 10px;
     width: 85%;
-    height: 70vh;
+    height: 60vh;
     margin: auto;
     text-align: center;
     border: none;
@@ -63,7 +63,7 @@ body {
 
   .msg2 {
     font-family: "Great Vibes", serif;
-    font-size: 4rem;/*new*/
+    font-size: 3.5rem;/*new*/
     font-weight: 500;
     color:#a00b33;
     padding: 2%;/*new*/
@@ -71,12 +71,12 @@ body {
 
   .greet-form textarea {
     width: 90%;/*new*/
-    height: 50vh;/*new*/
+    height: 40vh;/*new*/
     padding: 15px;/*new*/
     border-radius: 10px;
     border: none;
     font-family: "Libre Baskerville", serif;
-    font-size: 100%;/*new*/
+    font-size: 0.7rem;/*new*/
     color: #a00b33;
     background-color:  rgba(250, 112, 164, 0.4);
     resize: none; 
