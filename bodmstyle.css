@@ -319,9 +319,9 @@ body {
 
 .write-button {
     position: absolute;
+    top: 65%;
     left: 50%;
-    bottom: 150%;
-    transform: translateX(-50%) scale(0.2); 
+    transform: translateX(-50%) scale(0.3); 
     /*transform-origin: top right;*/
     opacity: 0;
 
@@ -329,10 +329,10 @@ body {
     -moz-animation: fadein 1s ease-in forwards;
     -o-animation: fadein 1s ease-in forwards;
        animation: fadein 1s ease-in forwards;
-    -webkit-animation-delay: 11s;
-    -moz-animation-delay: 11s;
-    -o-animation-delay: 11s;
-       animation-delay: 11s;
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -o-animation-delay: 15s;
+       animation-delay: 15s;
     /*object-fit: contain;*/
     /*width: 10px;
     height: auto;*/
