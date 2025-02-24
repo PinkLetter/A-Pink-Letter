@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="greets.css">
+    <title>A Pink Letter</title>
+</head>
+
+<body>
+<div class="overlay">
+    <img src="images/ba.gif">
+</div>
+
+<div class="txt-box">
+    <p class="msg1">ACTUALLY, I'LL BE CELEBRATING ON THE 1ST OF MARCH<br>BUT YOU WON'T BE COMING ANYWAY</p>
+    <p class="msg2">Write a Greeting Instead</p>
+
+<form 
+    action="https://formspree.io/f/xdkabyzw"
+    method="POST"
+    class="greet-form">
+    <textarea name="message" placeholder="Write your greeting here..." required></textarea>
+            <button type="submit">Send</button>
+</form>
+<p class="msg-sent" id="msgSent">Your message has been delivered!</p>
+</div>
+
+</body>
+</html>

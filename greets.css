@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; /*new*/
+}
+
+
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: #fa88ae;
+    background-image: url(images/barbie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /*new*/
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .txt-box {
+    position: relative;
+    top: 53%;
+    z-index: 2;
+    background-color: rgba(250, 112, 164, 0.4);
+    padding: 5%; /*new*/
+    border-radius: 15px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border: none;
+    /*filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.1));*/
+    box-shadow: 0 0 8px rgba(255, 51, 102, 0.3);
+    
+  }
+   
+  .msg1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 100%;/*new*/
+    font-weight: bold;/*new*/
+    letter-spacing: 1%;/*new*/
+    color:#a00b33;
+  }
+
+  .msg2 {
+    font-family: "Great Vibes", serif;
+    font-size: 200%;/*new*/
+    font-weight: 400;
+    color:#a00b33;
+    padding: 2%;/*new*/
+  }
+
+  .greet-form textarea {
+    width: 90%;/*new*/
+    height: 40%;/*new*/
+    padding: 15px;/*new*/
+    border-radius: 10px;
+    border: none;
+    font-family: "Libre Baskerville", serif;
+    font-size: 100%;/*new*/
+    color: #a00b33;
+    background-color:  rgba(250, 112, 164, 0.4);
+    resize: none; 
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    border: none;
+   /* filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.2));*/
+   box-shadow: 0 0 8px rgba(255, 51, 102, 0.3);
+    outline: none;
+  }
+
+  button {
+    margin-top: 2%; /*new*/
+    padding: 2% 5%;/*new*/
+    font-size: 120%;/*new*/
+    font-family: "Great Vibes", serif;
+    font-weight: 500;/*new*/
+    letter-spacing: 1%;/*new*/
+    color: #a00b33;
+    border: none; 
+    /*border-image: linear-gradient(90deg, 
+    #9b5e1f, #a96d27, #d4a45f, #a96d27, #9b5e1f);*/
+    border-radius: 10px;
+    background-clip: padding-box;
+    background-color:  rgba(250, 112, 164, 0.4);
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 8px rgba(255, 51, 102, 0.5);
+    transition: 0.3s ease-in-out; /*new*/
+  }
+
+  button:hover {
+    color:#a00b33;
+  }
+
+  button:active {
+    /*transform: translateY(3px); */
+    box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.1),
+                inset -4px -4px 6px rgba(255, 105, 135, 0.3);
+  }
+  .msg-sent {
+    display: none;
+    color: #a00b33 ;
+    margin-top: 2%; /*new*/
+    font-weight: bold;
+}
+
+/* I can't be arsed anymore, that's all of it. Thanks anyway for viewing :) */
