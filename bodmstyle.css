@@ -319,7 +319,7 @@ body {
 
 .write-button {
     position: absolute;
-    bottom: 15%;
+    top: 65%;
     left: 50%;
     transform: translateX(-50%) scale(0.2); 
     /*transform-origin: top right;*/
