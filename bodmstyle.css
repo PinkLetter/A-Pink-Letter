@@ -321,7 +321,7 @@ body {
     /*position: absolute;*/
     /*bottom: 10%;*/
     display: block;
-    padding: 10px 20px;
+    padding:  0.5em 1em;
     top: calc(62.5% + 40px);
     left: 50%;
     /*transform: translateX(-50%) scale(0.2);*/ 
