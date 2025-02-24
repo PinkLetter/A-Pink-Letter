@@ -275,11 +275,13 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-family: "Libre Baskerville", serif;
-    font-size: 0.7rem; /* Adjust text size */
+    font-size: 0.7rem;
+    font-weight: 350;
     color: #f6a7c2;
     letter-spacing: 2px;
     text-align: center;
     opacity: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 
     -webkit-animation: fadein 1s ease-in forwards;
     -moz-animation: fadein 1s ease-in forwards;
@@ -297,11 +299,13 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-family: "Libre Baskerville", serif;
-    font-size: 0.7rem; /* Adjust text size */
+    font-size: 0.7rem;
+    font-weight: 350;
     color: #f6a7c2;
     letter-spacing: 2px;
     text-align: center;
     opacity: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 
     -webkit-animation: fadein 1s ease-in forwards;
     -moz-animation: fadein 1s ease-in forwards;
