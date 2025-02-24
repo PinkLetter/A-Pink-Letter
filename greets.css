@@ -56,8 +56,8 @@ body {
   .msg1 {
     font-family: "Libre Baskerville", serif;
     font-size: 0.7rem;/*new*/
-    font-weight: bold;/*new*/
-    letter-spacing: 1%;/*new*/
+    font-weight: 400;/*new*/
+    letter-spacing: 1px;/*new*/
     color:#a00b33;
   }
 
@@ -92,7 +92,7 @@ body {
   button {
     margin-top: 2%; /*new*/
     padding: 2% 5%;/*new*/
-    font-size: 0.7rem;/*new*/
+    font-size: 2rem;/*new*/
     font-family: "Great Vibes", serif;
     font-weight: 500;/*new*/
     letter-spacing: 1%;/*new*/
