@@ -35,7 +35,7 @@ body {
   }
 
   .txt-box {
-    position: relative;
+    position: absolute; /*new*/
     top: 45%;
     z-index: 2;
     background-color: rgba(250, 112, 164, 0.4);
