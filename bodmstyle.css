@@ -318,11 +318,13 @@ body {
 }
 
 .write-button {
-    position: absolute;
+    /*position: absolute;*/
     /*bottom: 10%;*/
+    display: block;
+    padding: 10px 20px;
     top: calc(62.5% + 40px);
     left: 50%;
-    transform: translateX(-50%) scale(0.2); 
+    /*transform: translateX(-50%) scale(0.2);*/ 
     /*transform-origin: top right;*/
     opacity: 0;
     /*width: 12em;*/
