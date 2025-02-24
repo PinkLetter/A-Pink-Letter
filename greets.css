@@ -36,7 +36,7 @@ body {
 
   .txt-box {
     position: absolute; /*new*/
-    top: 35%;
+    top: 30%;
     left: 50%; 
     transform: translateX(-50%);/*new*/
     z-index: 2;
@@ -44,7 +44,7 @@ body {
     padding: 3%; /*new*/
     border-radius: 10px;
     width: 85%;
-    height: 60vh;
+    height: 50vh;
     margin: auto;
     text-align: center;
     border: none;
@@ -71,12 +71,12 @@ body {
 
   .greet-form textarea {
     width: 90%;/*new*/
-    height: 40vh;/*new*/
+    height: 30vh;/*new*/
     padding: 15px;/*new*/
     border-radius: 10px;
     border: none;
     font-family: "Libre Baskerville", serif;
-    font-size: 0.7rem;/*new*/
+    font-size: 1rem;/*new*/
     color: #a00b33;
     background-color:  rgba(250, 112, 164, 0.4);
     resize: none; 
