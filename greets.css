@@ -36,12 +36,13 @@ body {
 
   .txt-box {
     position: relative;
-    top: 53%;
+    top: 45%;
     z-index: 2;
     background-color: rgba(250, 112, 164, 0.4);
     padding: 5%; /*new*/
     border-radius: 15px;
-    width: 40%;
+    width: 60%;
+    height: 150px;
     margin: auto;
     text-align: center;
     border: none;
