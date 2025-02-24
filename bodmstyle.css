@@ -327,7 +327,8 @@ body {
     /*transform: translateX(-50%) scale(0.2);*/ 
     /*transform-origin: top right;*/
     opacity: 0;
-    /*width: 12em;*/
+    width: 5%;
+    max-width: 5rem;
     -webkit-animation: fadein 1s ease-in forwards;
     -moz-animation: fadein 1s ease-in forwards;
     -o-animation: fadein 1s ease-in forwards;
