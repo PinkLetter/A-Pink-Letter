@@ -80,7 +80,7 @@ body {
 
 .border-bottom {
     position: absolute;
-    top: 89%; /* Adjust distance from bottom */
+    top: 85%; /* Adjust distance from bottom */
     left: 50%;
     transform: translateX(-50%);
     width: 90%; /* Adjust size as needed */
@@ -116,7 +116,7 @@ body {
 
 .adjusted-text {
    
-    top: 25%;
+    top: 27%;
     /*left: 50%;*/
     /* margin-bottom: 50px; */
     width: 100%;
@@ -178,7 +178,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "amoresa", serif;
-    font-size: 3.3rem; /* Make it bigger */
+    font-size: 3.4rem; /* Make it bigger */
     line-height: 1.2;
     width: 100%;
     text-align: center;
@@ -200,7 +200,7 @@ body {
 .bottom-image {
 
     position: absolute; 
-    top: 50%; 
+    top: 47%; 
     display: block;
     margin: 0px auto;
     width: 160%;
