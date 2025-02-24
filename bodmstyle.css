@@ -319,9 +319,9 @@ body {
 
 .write-button {
     position: absolute;
-    top: 65%;
+    bottom: 25%;
     left: 50%;
-    transform: translateX(-50%) scale(0.3); 
+    transform: translateX(-50%) scale(0.1); 
     /*transform-origin: top right;*/
     opacity: 0;
 
