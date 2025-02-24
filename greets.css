@@ -37,11 +37,12 @@ body {
   .txt-box {
     position: absolute; /*new*/
     top: 45%;
+    left: 50%; 
     z-index: 2;
     background-color: rgba(250, 112, 164, 0.4);
     padding: 5%; /*new*/
     border-radius: 15px;
-    width: 60%;
+    width: 80%;
     height: 150px;
     margin: auto;
     text-align: center;
@@ -53,15 +54,15 @@ body {
    
   .msg1 {
     font-family: "Libre Baskerville", serif;
-    font-size: 100%;/*new*/
-    font-weight: bold;/*new*/
+    font-size: 0.7rem;/*new*/
+    font-weight: 400;/*new*/
     letter-spacing: 1%;/*new*/
     color:#a00b33;
   }
 
   .msg2 {
     font-family: "Great Vibes", serif;
-    font-size: 200%;/*new*/
+    font-size: 2rem;/*new*/
     font-weight: 400;
     color:#a00b33;
     padding: 2%;/*new*/
