@@ -63,29 +63,29 @@ body {
     margin: 0;
     /*overflow: hidden;*/
     background-color: #a00b33;
-    position: absolute;
+    position: relative;
 }
 
 .border-top {
     position: absolute;
-    top: 3%; /* Adjust distance from top */
+    top: 3%;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%; /* Adjust size as needed */
+    width: 90%;
     height: 50%;
-    background-image: url(images/top.svg); /* Replace with your actual image path */
+    background-image: url(images/top.svg); 
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .border-bottom {
     position: absolute;
-    top: 85%; /* Adjust distance from bottom */
+    top: 85%; 
     left: 50%;
     transform: translateX(-50%);
-    width: 90%; /* Adjust size as needed */
+    width: 90%; 
     height: 50%;
-    background-image: url(images/bottom.svg); /* Replace with your actual image path */
+    background-image: url(images/bottom.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -95,21 +95,21 @@ body {
     top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60%; /* Adjust size as needed */
-    height: 50%; /* Adjust size as needed */
-    background-image: url(images/center.svg); /* Replace with your actual image */
+    width: 60%; 
+    height: 50%;
+    background-image: url(images/center.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .center-image-top {
     position: absolute;
-    top: 8%; /* Adjust as needed (distance from top) */
+    top: 8%; 
     left: 50%;
     transform: translateX(-50%);
-    width: 40%; /* Adjust size */
-    height: 40%; /* Adjust size */
-    background-image: url(images/rose.svg); /* Replace with actual image */
+    width: 40%;
+    height: 40%;
+    background-image: url(images/rose.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -178,7 +178,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "amoresa", serif;
-    font-size: 3.4rem; /* Make it bigger */
+    font-size: 3.4rem; 
     line-height: 1.2;
     width: 100%;
     text-align: center;
