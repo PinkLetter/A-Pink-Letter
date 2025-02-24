@@ -44,7 +44,7 @@ body {
     padding: 3%; /*new*/
     border-radius: 10px;
     width: 85%;
-    height: 50vh;
+    height: 100vh;
     margin: auto;
     text-align: center;
     border: none;
@@ -71,7 +71,7 @@ body {
 
   .greet-form textarea {
     width: 90%;/*new*/
-    height: 40%;/*new*/
+    height: 70vh;/*new*/
     padding: 15px;/*new*/
     border-radius: 10px;
     border: none;
@@ -92,7 +92,7 @@ body {
   button {
     margin-top: 2%; /*new*/
     padding: 2% 5%;/*new*/
-    font-size: 120%;/*new*/
+    font-size: 0.7rem;/*new*/
     font-family: "Great Vibes", serif;
     font-weight: 500;/*new*/
     letter-spacing: 1%;/*new*/
