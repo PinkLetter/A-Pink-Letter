@@ -15,7 +15,7 @@ body {
     background-image: url(images/barbie.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; /*new*/
+    background-position: top center; /*new*/
 }
 
 .overlay {
