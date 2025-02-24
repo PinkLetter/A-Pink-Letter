@@ -44,7 +44,7 @@ body {
     padding: 3%; /*new*/
     border-radius: 10px;
     width: 85%;
-    height: 100vh;
+    height: 70vh;
     margin: auto;
     text-align: center;
     border: none;
@@ -71,7 +71,7 @@ body {
 
   .greet-form textarea {
     width: 90%;/*new*/
-    height: 70vh;/*new*/
+    height: 50vh;/*new*/
     padding: 15px;/*new*/
     border-radius: 10px;
     border: none;
