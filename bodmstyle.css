@@ -61,7 +61,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    /*overflow: hidden;*/
     background-color: #a00b33;
     position: relative;
 }
@@ -117,8 +116,6 @@ body {
 .adjusted-text {
    
     top: 27%;
-    /*left: 50%;*/
-    /* margin-bottom: 50px; */
     width: 100%;
     font-family: "Libre Baskerville", serif;
     color: #f6a7c2;
@@ -158,9 +155,6 @@ body {
     width: 80%;
     height: auto;
     opacity: 0;
-    /*background-image: url('images/2.gif'); 
-    background-size: contain;
-    background-repeat: no-repeat;*/
 
     -webkit-animation: fadein-out 6s ease-in forwards;
     -moz-animation: fadein-out 6s ease-in forwards;
@@ -200,11 +194,12 @@ body {
 .bottom-image {
 
     position: absolute; 
-    top: 47%; 
+    top: 50%; 
     display: block;
     margin: 0px auto;
     width: 100%;
     height: auto;
+    max-height: 60vh; /*new*/
     opacity: 0;
 
     -webkit-animation: fadein 1s ease-in forwards;
@@ -229,10 +224,6 @@ body {
 
 .date {
     
-    /*position: relative;
-    top: 10px;
-    display: block;
-    margin: 0px auto;*/
     width: 100%;
     height: auto;
     opacity: 0;
@@ -319,7 +310,7 @@ body {
 
 .write-container {
     position: absolute;
-    top: 65%; /* Adjust position under text2 */
+    top: 65%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
