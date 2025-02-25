@@ -194,10 +194,10 @@ body {
 .bottom-image {
 
     position: absolute; 
-    top: 50%; 
+    top: 48%; 
     display: block;
     margin: 0px auto;
-    width: 100%;
+    width: 130%;
     height: auto;
     max-height: 60vh; /*new*/
     opacity: 0;
@@ -326,7 +326,7 @@ body {
     transform: translateX(-50%) scale(0.2);*/ 
     /*transform-origin: top right;*/
     opacity: 0;
-    width: 10vw;/*new*/
+    width: 5%;/*new*/
     height: auto;/*new*/
     /*max-width: 5rem;*/
     
