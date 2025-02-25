@@ -176,7 +176,7 @@ body {
     line-height: 1.2;
     width: 100%;
     text-align: center;
-    margin: 0 0 20px 0;
+    margin: 5% 0 5% 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     position: absolute;
     opacity: 0;
@@ -196,7 +196,7 @@ body {
     position: absolute; 
     top: 48%; 
     display: block;
-    margin: 0px auto;
+    margin: 5% 0 5% 0;
     width: 130%;
     height: auto;
     max-height: 60vh; /*new*/
