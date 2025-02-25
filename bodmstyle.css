@@ -318,7 +318,7 @@ body {
 }
 
 .write-button {
-    position: absolute;
+    position: fixed;
     /*bottom: 10%;*/
     /*display: block;*/
     /*padding:  0.5em 1em;*/
