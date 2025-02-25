@@ -317,18 +317,28 @@ body {
     animation-delay: 14s;
 }
 
-.write-button {
-    position: fixed;
+.write-container {
+    position: absolute;
+    top: 65%; /* Adjust position under text2 */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.write-button img {
+    /*position: fixed; new*/
     /*bottom: 10%;*/
     /*display: block;*/
     /*padding:  0.5em 1em;*/
-    top: calc(62.5% + 40px);
+    /*top: calc(62.5% + 40px);
     left: 50%;
-    transform: translateX(-50%) scale(0.2); 
+    transform: translateX(-50%) scale(0.2);*/ 
     /*transform-origin: top right;*/
     opacity: 0;
-    width: 5%;
-    max-width: 5rem;
+    width: 5vw;/*new*/
+    height: auto;/*new*/
+    /*max-width: 5rem;*/
+    
     -webkit-animation: fadein 1s ease-in forwards;
     -moz-animation: fadein 1s ease-in forwards;
     -o-animation: fadein 1s ease-in forwards;
@@ -337,9 +347,6 @@ body {
     -moz-animation-delay: 15s;
     -o-animation-delay: 15s;
        animation-delay: 15s;
-    /*object-fit: contain;*/
-    /*width: 10px;
-    height: auto;*/
     filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.5));
     transition: opacity 0.3s ease-in-out;
 }
